@@ -13,6 +13,8 @@ export default function createElement(type, fieldProps) {
       return <Input placeholder={placeholder} />;
     case "password":
       return <Input.Password placeholder={placeholder} />;
+      case "textarea":
+      return <Input placeholder={placeholder} />;
     case "date":
       return <Input placeholder={placeholder} type="date" />;
     case "select":
